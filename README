@@ -69,6 +69,9 @@ in the future's version.
 
 3.When you run "Ejson", you must input a json file name after the "./Ejson".
 
+File:
+------
+address, up, test.json are all json file which is an example for you to use.
 
 Note:
 -------
