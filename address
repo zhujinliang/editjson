@@ -1,0 +1,26 @@
+[{
+		"addresses":	[{
+				"country":	"China",
+				"locality":	"WuHan City ",
+				"postalCode":	"4300**",
+				"region":	"HuBei Province ",
+				"streetAddress":	"Guanggu Software Park"
+			}],
+		"firstName":	"Jinliang",
+		"ims":	[{
+				"type":	"qq",
+				"value":	"*********"
+			}],
+		"lastName":	"Zhu",
+		"organizations":	[{
+				"department":	"Wuhan",
+				"name":	"Shanghai EmbedWay Information Techonologies Co.,Ltd",
+				"title":	"",
+				"type":	"trainee"
+			}],
+		"phoneNumbers":	[{
+				"Number":	"150******31",
+				"comment":	"China Mobile",
+				"workhomeother":	"Mobile"
+			}]
+	}]

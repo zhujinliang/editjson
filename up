@@ -1,0 +1,5 @@
+{
+	"optional":	true,
+	"type":	"any",
+	"title":	"This is an example of json structure"
+}

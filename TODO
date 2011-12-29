@@ -1,0 +1,26 @@
+editjson To-Do List
+Copyright (c) 2011 Shanghai EmbedWay Information Technologies Co.,Ltd China
+                   Zhu Jinliang
+------------------------------------------------------------------------------
+There are a few things that I am either currently working on, or going to 
+work on in the near future. They are:
+1.Since I didn't spend much time plan the all structure of the progrom, the 
+data structures is so poor that it is difficult to add more function to the 
+software. Therefore, I am considering it is necessary to plan and design 
+the data structures again.
+
+2.Use dynamic list to store the screen data.
+
+3.Add PageUP and PageDown key function, just like the general txt editor.
+
+4.Add the function: insert, add or delet an item to json.
+
+5.Add or reserve the interface of check valid input based on the syntax or 
+other principle.
+
+
+
+If you want to make contact with me, mail me at one of the following:
+zhujinlianghust@gmail.com
+
+-Zhu Jinliang, Dec 2011
