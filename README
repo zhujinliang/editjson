@@ -1,0 +1,90 @@
+/*
+  Copyright (c) 2011 Shanghai EmbedWay Information Technologies Co.,Ltd China
+                     Zhu Jinliang
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and sell copies 
+  of the Software, and to permit persons to whom the Software is furnished to 
+  do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+*/
+
+Overview:
+----------
+editjson is an json structure file editor that based on termbox libray and 
+cJSON libray. It can be used to edit json structure file. You can use it open 
+a json structure file in a terminal user interface, in which you can modify 
+the content of json structure clearly. 
+JSON is described best here: http://www.json.org/
+It's like XML, but fat-free. You use it to move data around, store things, 
+or just generally represent your program's state.
+editjson is just like but smaller, lighter and more portable than the jsonedit 
+which is also a terminal-based application for working with JSON. It's based 
+on urwid, an excellent Python-based library for building terminal-based user 
+interfaces. Get more information on this: http://robla.net/jsonwidget/
+
+
+How to use:
+---------
+There is two examples in the package, test.c is for shell command to call and 
+example is for C to call. 
+Do as this:
+cd editjson
+make test    #compile the test,then will creat "editjson" which is an 
+             #executable file. 
+make example #compile the example, then will creat "Ejson" which is an 
+             #executable file. 
+
+Then there will be an executable file exists. Now, you can run it by clicking 
+"./editjson" or "./Ejson" into the terminal.
+
+In the "editjson", you can do these:
+1.If you don't open a json file, it will open test.json(which is in the same 
+directory) as the schema.
+
+2.Of course, you can creat a new json file by assigning a schema. Just do like 
+this: ./editjson -s [the schema file] newjsonfile
+
+3.If you open a json file or creat a new json file, you can input some content 
+in the item, just as you do in other txt editor. You can use Backspace key, 
+Delete key. What's more, you can add or insert content in the anywhere of the 
+item content.
+
+4.If your work is done, you can use Ctrl+W to save your work, use Ctrl+W to exit
+the software. If your file is modified, it will note you to save or not save when 
+you want to exit.
+
+Notice:
+1.PageUP and PageDown key can not be used in the software. If your json 
+information can not be all displayed in the edit screen, you can try to change 
+the size of terminal window to display more.
+
+2.You can't insert, add or delet an item to json, but these function may be added
+in the future's version.
+
+3.When you run "Ejson", you must input a json file name after the "./Ejson".
+
+
+Note:
+-------
+Since the author's ability is limited, the software may exist many bugs that I
+didn't have found and solve them. Please write them in a file, and send to me 
+if possible. I'll appreciate your work very much!
+
+Contact:
+---------
+If you want to make contact with me, mail me at this:
+zhujinlianghust@gmail.com
+
+-Zhu Jinliang, Dec 2011
+
+
+
+
+
+
